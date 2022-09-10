@@ -5,7 +5,7 @@ def greet():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     return name
-    
+
 
 def play_game(qa_function):
     name = greet()
