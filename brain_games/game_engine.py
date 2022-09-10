@@ -4,13 +4,15 @@ import prompt
 def greet():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     return name
 
 
-def play_game(qa_function):
+def play_game(qa_function, attempts, task):
     name = greet()
     attempt = 0
-    while attempt < 3:
+    print(task)
+    while attempt < attempts:
         qa = qa_function()
         question = qa[0]
         print(f'Question: {question}')

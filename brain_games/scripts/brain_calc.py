@@ -17,7 +17,7 @@ def get_q_and_a():
 
 
 def main():
-    play_game(get_q_and_a)
+    play_game(get_q_and_a, 3, 'What is the result of the expression?')
 
 
 if __name__ == main:
