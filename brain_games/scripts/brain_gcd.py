@@ -5,8 +5,8 @@ from brain_games.game_engine import play_game
 
 
 def get_q_and_a():
-    num1 = random.randint(0, 100)
-    num2 = random.randint(0, 100)
+    num1 = random.randint(1, 100)
+    num2 = random.randint(1, 100)
     ans = 1
     if num1 < num2:
         for i in range(num1):
