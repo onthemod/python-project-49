@@ -15,7 +15,8 @@ def get_q_and_a():
 
 
 def main():
-    play_game(get_q_and_a, 3, 'Answer "yes" if given number is prime. Otherwise answer "no".')
+    play_game(get_q_and_a, 3,
+              'Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
 if __name__ == main:

@@ -11,7 +11,8 @@ def get_q_and_a():
 
 
 def main():
-    play_game(get_q_and_a, 3, 'Answer "yes" if the number is even, otherwise answer "no".')
+    play_game(get_q_and_a, 3,
+              'Answer "yes" if the number is even, otherwise answer "no".')
 
 
 if __name__ == main:

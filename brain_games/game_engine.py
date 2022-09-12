@@ -19,7 +19,8 @@ def play_game(qa_function, attempts, task):
         user_ans = prompt.string('Your answer: ')
         correct_ans = qa[1]
         if user_ans != correct_ans:
-            print(f"\'{user_ans}\' is wrong answer ;(. Correct answer was \'{correct_ans}\'.")
+            print(f"\'{user_ans}\' is wrong answer ;(. \
+Correct answer was \'{correct_ans}\'.")
             print(f"Let\'s try again, {name}!")
             return
         print('Correct!')

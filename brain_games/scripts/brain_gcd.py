@@ -20,7 +20,8 @@ def get_q_and_a():
 
 
 def main():
-    play_game(get_q_and_a, 3, "Find the greatest common divisor of given numbers.")
+    play_game(get_q_and_a, 3,
+              "Find the greatest common divisor of given numbers.")
 
 
 if __name__ == main:
