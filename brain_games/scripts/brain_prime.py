@@ -5,7 +5,9 @@ from brain_games.game_engine import play_game
 
 
 def get_q_and_a():
-    num = random.randint(0, 15)
+    num = random.randint(1, 15)
+    if num == 1:
+        return (str(num), 'no')
     for i in range(2, num):
         if num % i == 0:
             return (str(num), 'no')
