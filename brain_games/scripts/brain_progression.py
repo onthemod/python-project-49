@@ -6,7 +6,7 @@ from brain_games.game_engine import play_game
 
 def get_q_and_a():
     length = random.randint(5, 15)
-    num = random.randint(0, length)
+    num = random.randint(0, length - 1)
     start = random.randint(0, 100)
     step = random.randint(1, 10)
     s = ''
